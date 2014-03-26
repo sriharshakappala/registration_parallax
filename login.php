@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <html lang="en">
     <head>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -37,31 +41,13 @@
                             <form name="submit" method="post" action="">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="First Name" name="firstname" id="firstname" type="text">                                    
+                                    <input class="form-control" placeholder="Username" name="username" id="username" type="text">                                    
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Last Name" name="lastname" id="lastname" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" name="email" id="email" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Username" name="username" id="username" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Password" name="password" id="password" type="password" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Confirm Password" name="cpassword" id="cpassword" type="password" value="">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="Company Name" name="company" id="company" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <?php create_country_dropdown(); ?>
-                                </div>
-                                <input class="btn btn-lg btn-success btn-block" type="submit" name="submit" value="Register">
-                                <a href="login.php" class="btn btn-lg btn-info btn-block">Already a Member?</a>
+                                    <input class="form-control" placeholder="Password" name="password" id="password" type="text">
+                                </div>                                
+                                <input class="btn btn-lg btn-success btn-block" type="submit" name="submit" value="Login">
+                                <a href="register.php" class="btn btn-lg btn-info btn-block">New Member</a>
                             </fieldset>
                             </form>                            
                         </div>
