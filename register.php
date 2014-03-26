@@ -52,7 +52,6 @@
                             <fieldset>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="First Name" name="firstname" id="firstname" type="text">
-                                    <span></span>
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" placeholder="Last Name" name="lastname" id="lastname" type="text">
@@ -76,9 +75,9 @@
                                     <?php create_country_dropdown(); ?>
                                 </div>
                                 <input class="btn btn-lg btn-success btn-block" type="submit" name="submit" value="Register">
-                                <input class="btn btn-lg btn-info btn-block" type="submit" value="Already a Member?" onclick="parent.location'login.php'">
+                                <a href="login.php" class="btn btn-lg btn-info btn-block">Already a Member?</a>
                             </fieldset>
-                            </form>
+                            </form>                            
                         </div>
                     </div>
                 </div>
@@ -86,5 +85,3 @@
         </div>
     </body>
 </html>
-    
-    

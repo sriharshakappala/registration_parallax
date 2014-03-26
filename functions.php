@@ -42,7 +42,7 @@ function register_user($firstname, $lastname, $email, $username, $password, $com
 function create_country_dropdown()
 {
     $db = db_open();
-    $stmt = $db->prepare("SELECT * from countries");
+    $stmt = $db->prepare("select * from countries ORDER BY countryName");
     $stmt->execute();
     $array = $stmt->fetchAll();
     db_close($db);
